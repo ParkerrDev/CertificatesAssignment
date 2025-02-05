@@ -1,0 +1,28 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Sree+Krushnadevaraya&display=swap');
+
+
+/* VARIABLES */
+:root {
+    --font: "Sree Krushnadevaraya", sans-serif;
+    --background: #FFF5EA;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--background);
+    font-family: var(--font);
+    font-size: 20px;
+    color: black;
+    margin: 2vh;
+    border: 1px black solid;
+    height: 96vh;
+    max-height: 98vh;
+}
+
+#certificate-title h1 {
+    font-size: 64px;
+}
